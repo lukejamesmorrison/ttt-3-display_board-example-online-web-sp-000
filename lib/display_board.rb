@@ -4,9 +4,10 @@ def display_board
   horizontal_seperator = "|"
   vertical_sperator = "-----------"
 
-  for(i = 0; i < 2; i++) do
+  while i < 2 do
     puts cell
     puts horizontal_seperator
+    i++
   end
 
 
