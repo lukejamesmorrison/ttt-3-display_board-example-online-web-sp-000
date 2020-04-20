@@ -9,7 +9,7 @@ def display_board
 
   for i in 0..2 do
     puts cell + horizontal_seperator + cell + horizontal_seperator + cell
-    if(i < 2) do
+    if(i < 2)
       puts vertical_sperator
     end
   end
