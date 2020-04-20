@@ -4,9 +4,6 @@ def display_board
   horizontal_seperator = "|"
   vertical_sperator = "-----------"
 
-  puts cell
-  puts horizontal_seperator
-
   for i in 0..2 do
     puts cell + horizontal_seperator + cell + horizontal_seperator + cell
     if(i < 2)
