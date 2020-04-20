@@ -4,4 +4,11 @@ def display_board
   horizontal_seperator = "|"
   vertical_sperator = "-----------"
 
+  3.times |index| {
+    puts cell + horizontal_seperator + cell + horizontal_seperator + cell
+    if(index < 2) {
+      puts vertical_seperator
+    }
+  }
+
 end
