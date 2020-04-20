@@ -8,6 +8,8 @@ def display_board
     puts cell
     puts horizontal_seperator
   end
+
+  display_board
   # while i < 2 do
   #
   #   i+=1
