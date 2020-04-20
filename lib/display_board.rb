@@ -8,7 +8,7 @@ def display_board
     puts (cell + horizontal_seperator + cell + horizontal_seperator + cell)
     # if(index < 2) do
       puts vertical_seperator
-    end/
+    # end
   end
 
 end
