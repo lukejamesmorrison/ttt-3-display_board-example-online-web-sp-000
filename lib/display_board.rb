@@ -7,7 +7,7 @@ def display_board
   while i < 2 do
     puts cell
     puts horizontal_seperator
-    i++
+    i +=1
   end
 
 
