@@ -4,6 +4,9 @@ def display_board
   horizontal_seperator = "|"
   vertical_sperator = "-----------"
 
+  puts cell
+  puts horizontal_seperator
+
   9.times do
     puts cell
     puts horizontal_seperator
