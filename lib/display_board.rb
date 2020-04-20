@@ -6,9 +6,9 @@ def display_board
 
   3.times |index| do
     puts (cell + horizontal_seperator + cell + horizontal_seperator + cell)
-    if(index < 2) {
+    if(index < 2) do
       puts vertical_seperator
-    }
+    end
   end
 
 end
