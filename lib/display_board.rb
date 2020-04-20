@@ -3,5 +3,5 @@ def display_board
   cell = "   "
   horizontal_seperator = "|"
   vertical_sperator = "-----------"
-  
+
 end
