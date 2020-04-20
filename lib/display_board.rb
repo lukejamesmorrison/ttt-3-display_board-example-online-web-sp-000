@@ -7,9 +7,8 @@ def display_board
   puts cell
   puts horizontal_seperator
 
-  9.times do
-    puts cell
-    puts horizontal_seperator
+  for i in 0..2 do
+    puts cell + horizontal_seperator + cell + horizontal_seperator + cell
   end
 end
 
