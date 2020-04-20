@@ -5,7 +5,7 @@ def display_board
   vertical_sperator = "-----------"
 
   3.times do
-    puts (cell + horizontal_seperator + cell + horizontal_seperator + cell)
+    puts cell + horizontal_seperator + cell + horizontal_seperator + cell
     # if(index < 2) do
     puts vertical_seperator
     # end
