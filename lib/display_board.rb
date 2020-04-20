@@ -4,9 +4,12 @@ def display_board
   horizontal_seperator = "|"
   vertical_sperator = "-----------"
 
-  while i < 2 do
+  9.times do
     puts cell
     puts horizontal_seperator
+  end
+  while i < 2 do
+
     i+=1
   end
 
